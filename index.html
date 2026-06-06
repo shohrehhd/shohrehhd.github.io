@@ -1,223 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Shohreh Haddadan</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Shohreh Haddadan</span>
-                <span class="d-none d-lg-block"><img class="img-fluid  mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>-->
-                </ul>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Shohreh Haddadan
-                        <span class="text-primary"></span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        
-                        <a href="mailto:name@email.com">shohreh.haddadan@uni.lu</a>
-                    </div>
-                    <p class="lead mb-5">I am a computer scientist specializing in Natural Language Processing(NLP).</p>
-                    <div class = "lead mb-5">
-                        <p>
-                         My interests in NLP include but are not limited to:</p>
-                         <ul>
-                          <li>Argument mining</li>
-                          <li> Text classification</li>
-                          <li> Abstractive summarization </li>
-                          <li> Bias in language models</li>
-                        </ul>
-                        </p>
-                        <p>
-                            I am currently writing my PhD dissertation at <a href="https://www.uni.lu">University of Luxembourg</a> on the topic of argument mining from political debates data which in summary includes extraction of argument structures from textual resources in political debates and utilize these structures in argumentative analysis such as detection of fallacious arguments.
-                            <br>
-                            My master thesis(written in Farsi) is on the use of Abstract Meaning Representations (graph-based semantic representation models) for abstractive summarization of Persian text.
-                        </p>
-                          
-                    </div>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/shohreh-haddadan-45803aa3/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/shohrehhd"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="http://twitter.com/shohrehhd"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="https://scholar.google.lu/citations?user=G7BMGQYAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
-                        
-                        <!--<a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>-->
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Work Experience</h3>
-                            <h4 class="mb-1">Software Developer</h4>
-                            <div class="subheading mb-3">BasirTech</div>
-                            <p>I was a software developer at <a href="http://basirtech.com">basirtech</a>.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2012 - September 2017</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Teaching Experience</h3>
-                            <div class="subheading mb-3">Introduction to Natural Language Processing(Bachelor in Computer Science)
-                                                        </div>
-                                                        
-                                                        <p>
-                                                            I and my colleague devised <a href="https://gitlab.uni.lu/mine/introduction-to-nlp-practicals-2020">a set of notebooks</a> to use as material for this course.
-                                                        </p>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Your Name — Portfolio</title>
+<meta name="description" content="Personal site — background, education and work." />
 
-                            
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Winter Semester 2020</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Luxembourg</h3>
-                            <div class="subheading mb-3">PhD in Computer science</div>
-                            
-                            
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2017 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Sharif University of Technology</h3>
-                            <div class="subheading mb-3">Masters in Computational Linguistics</div>
-                            <div></div>
-                            <!--<p>GPA: 17.99/20</p>-->
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2014 - January 2017</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Ferdowsi University of Mashhad</h3>
-                            <div class="subheading mb-3">Bachelor of Software Engineering</div>
-                            <div></div>
-                            <!--<p>GPA: 16.45/20</p>-->
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2004 - September 2008</span></div>
-                    </div>
-                    
-                </div>
-            </section>
-            <!-- Publications-->
-            <section class="resume-section" id="publications">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Publications</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <span class="text-secondary"><a href = "https://www.aclweb.org/anthology/P19-1463/">Yes, we can! mining arguments in 50 years of us presidential campaign debates</a></span>
-                       </div>
-                        <div class="flex-shrink-1"><span class="text-primary">ACL 2019 - Florence - Italy</span></div>
-                    </div>
-                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+<!-- Fonts (loaded from Google, no setup needed) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 
-                          <div class="flex-grow-1">
-                            <span class="text-secondary"><a href = "https://www.ijcai.org/proceedings/2019/944">DISPUTool--A tool for the Argumentative Analysis of Political Debates</a></span>
-                       </div>
-                        <div class="flex-shrink-1"><span class="text-primary">IJCAI 2019 - Macao</span></div>
+<style>
+  /* ============================================================
+     THEME — change these colors once and the whole site updates
+     ============================================================ */
+  /* LIGHT THEME (sage mist) — change these to recolor the light look */
+  :root {
+    --paper:   #e9efe8;   /* background */
+    --ink:     #1e251f;   /* main text  */
+    --muted:   #5f6960;   /* soft text  */
+    --accent:  #2d6a4f;   /* highlight (forest green) */
+    --line:    #d2dbd1;   /* hairlines  */
+    --card:    #f5f8f4;   /* card panels */
+    --maxw:    760px;     /* content width */
+  }
 
-                    </div>
+  /* DARK THEME — applied when the toggle is on (or system prefers dark) */
+  :root[data-theme="dark"] {
+    --paper:   #14181a;
+    --ink:     #e9e8e2;
+    --muted:   #9a9b94;
+    --accent:  #57b487;   /* brighter green so it reads on dark */
+    --line:    #2a2f30;
+    --card:    #1c2123;
+  }
 
-                  
-                   
-                    
-                </div>
-            </section>
-            <hr class="m-0" />
-            
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-2">Programming skills</div>
-                    <ul >
-                        <li> C++</li>
-                        <li>Python</li>
-                        <li>C#</li>
-                        <li>Keras/tensorflow</li>
-                        <li>Pytorch</li>
-                        <li>Qt</li>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
 
-                    </ul>
-                    <div class="subheading mb-2">Language skills</div>
-                    <ul>
-                       <li>English (Fluent)</li>
-                        <li>French (Intermediate)</li>
-                        <li>Luxembourgish (Beginner)</li>
-                        <li>Persian (Native)</li>
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Hanken Grotesk', system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    background-image: radial-gradient(transparent 1px, rgba(180,170,150,0.05) 1px);
+    background-size: 4px 4px;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color .3s ease, color .3s ease;
+  }
 
-                    </ul>
-                     <div class="subheading mb-2">Tools </div>
-                     <ul>
-                         <li> VCS: Git , TFS</li>
-                        <li> SQL Server</li>
-                        <li> Microsoft Office</li>
-                        <li>WordPress</li>
-                    </ul>
-                    
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 28px; }
 
-                    
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p class="mb-0">I enjoy reading, translating, hiking, cooking, ...</p>
-                </div>
-            </section>
-            
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+  /* ---- entrance animation ---- */
+  .reveal { opacity: 0; transform: translateY(16px); animation: rise 0.7s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+
+  /* ===========================  HEADER  =========================== */
+  header { padding: 14px 0 44px; }
+
+  /* name block at the top-left, in normal flow (stacks cleanly on mobile) */
+  .nameplate { padding-top: 56px; text-align: left; }
+  .name {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(26px, 6vw, 36px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  .name .accent { color: var(--accent); }
+
+  /* name in your own language, under the name */
+  .name-row { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 6px; flex-wrap: wrap; }
+  .name-native {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--muted);
+    line-height: 1.1;
+  }
+  /* speaker button that plays the name pronunciation */
+  .pronounce {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; flex: none;
+    border: 1.5px solid var(--line); border-radius: 50%;
+    background: var(--card); color: var(--ink); cursor: pointer;
+    transition: color .2s, background .2s, border-color .2s, transform .2s;
+  }
+  .pronounce:hover { color: #fff; background: var(--accent); border-color: var(--accent); }
+  .pronounce.playing { color: #fff; background: var(--accent); border-color: var(--accent); }
+  .pronounce svg { width: 15px; height: 15px; }
+  .pronounce[hidden] { display: none; }
+
+  /* light/dark toggle, pinned top-right */
+  .theme-toggle {
+    position: fixed; top: 18px; right: 18px; z-index: 10;
+    width: 44px; height: 44px;
+    border: 1.5px solid var(--line); border-radius: 50%;
+    background: var(--card); color: var(--ink); cursor: pointer;
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: color .2s, background .2s, border-color .2s, transform .2s;
+  }
+  .theme-toggle:hover { border-color: var(--accent); color: var(--accent); transform: rotate(-15deg); }
+  .theme-toggle svg { width: 20px; height: 20px; }
+  /* show the right icon for each mode */
+  .theme-toggle .moon { display: none; }
+  :root[data-theme="dark"] .theme-toggle .moon { display: block; }
+  :root[data-theme="dark"] .theme-toggle .sun  { display: none; }
+  .tagline { margin-top: 12px; font-size: clamp(17px, 2.5vw, 20px); color: var(--muted); max-width: 52ch; }
+
+  .contact { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 12px; }
+  .contact a {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 46px; height: 46px;
+    border: 1.5px solid var(--line); border-radius: 50%;
+    color: var(--ink); background: var(--card);
+    transition: color .2s, border-color .2s, transform .2s, background .2s;
+  }
+  .contact a:hover { color: #fff; background: var(--accent); border-color: var(--accent); transform: translateY(-3px); }
+  .contact a svg { width: 21px; height: 21px; }
+  .contact a[hidden] { display: none; }
+
+  /* ===========================  SECTIONS  =========================== */
+  section { padding: 46px 0; border-top: 1px solid var(--line); }
+  .section-label {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600; font-size: 13px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 26px;
+  }
+  .lede { font-size: 20px; line-height: 1.6; }
+
+  /* ---- timeline entry (jobs + schools share this) ---- */
+  .entry { margin-bottom: 34px; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .entry-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 22px; line-height: 1.2; }
+  .entry-org { color: var(--accent); font-weight: 600; }
+  .entry-date { font-size: 14px; color: var(--muted); white-space: nowrap; }
+  .entry-desc { margin-top: 8px; color: var(--muted); }
+
+  /* ---- work cards ---- */
+  .work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 24px; transition: transform .2s ease, box-shadow .2s ease;
+    text-decoration: none; color: inherit; display: block;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(50,40,20,.4); }
+  .card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 20px; margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: 15px; }
+  .card .tag { display: inline-block; margin-top: 14px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+
+  /* ---- publications: collapsible panel + paper list ---- */
+  .pub-panel { border: 1px solid var(--line); border-radius: 14px; background: var(--card); overflow: hidden; }
+  .pub-panel > summary {
+    list-style: none; cursor: pointer; padding: 16px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: 'Fraunces', serif; font-weight: 600; font-size: 18px;
+  }
+  .pub-panel > summary::-webkit-details-marker { display: none; }
+  .pub-panel > summary .chev { width: 20px; height: 20px; transition: transform .25s ease; color: var(--accent); }
+  .pub-panel[open] > summary .chev { transform: rotate(180deg); }
+  .pub-list { padding: 0 20px 8px; }
+  .pub { padding: 16px 0; border-top: 1px solid var(--line); }
+  .pub:first-child { border-top: none; }
+  .pub-title { font-weight: 600; }
+  .pub-title a { color: var(--ink); text-decoration: none; border-bottom: 1.5px solid var(--accent); padding-bottom: 1px; transition: color .2s; }
+  .pub-title a:hover { color: var(--accent); }
+  .pub-meta { color: var(--muted); font-size: 15px; margin-top: 4px; }
+  .pub-meta .venue { color: var(--accent); }
+
+  /* ---- hobby photo gallery ---- */
+  .photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
+  .photo {
+    position: relative; border-radius: 14px; overflow: hidden;
+    aspect-ratio: 4 / 3; background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .photo img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform .4s ease;
+  }
+  .photo:hover img { transform: scale(1.06); }
+  .photo figcaption {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 22px 14px 12px;
+    font-weight: 600; font-size: 15px; color: #fff;
+    background: linear-gradient(transparent, rgba(20,16,10,.72));
+  }
+
+  footer { padding: 50px 0 80px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+
+  /* tighten everything so it packs into a small screen */
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    .wrap { padding: 0 20px; }
+    section { padding: 30px 0; }
+    .nameplate { padding-top: 48px; }
+    .entry-top { gap: 4px; }
+    .work-grid { grid-template-columns: 1fr; }
+    .photo-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  }
+
+  /* message shown if the JSON can't load */
+  .loaderror { padding: 80px 0; color: var(--accent); }
+</style>
+<script>
+  // Apply the saved/preferred theme immediately, before the page paints.
+  (function () {
+    var saved = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = saved || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+</head>
+
+<body>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+  <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+  <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4 7 7 0 1 0 20 14.5Z"/></svg>
+</button>
+
+<div class="wrap">
+  <!--
+    NOTE: You don't edit the text in THIS file anymore.
+    All your content lives in the  content/  folder.
+    Edit those files to update your name, jobs, education, projects and hobbies.
+  -->
+
+  <div class="nameplate reveal" id="nameplate">
+    <h1 class="name" id="name"></h1>
+    <div class="name-row">
+      <span class="name-native" id="name-native"></span>
+      <button class="pronounce" id="pronounce" aria-label="Hear my name pronounced" title="Hear my name" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 6a8 8 0 0 1 0 12"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <header class="reveal">
+    <p class="tagline" id="tagline"></p>
+
+    <div class="contact" id="contact">
+      <a id="c-email" aria-label="Email" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+      </a>
+      <a id="c-github" target="_blank" rel="noopener" aria-label="GitHub" hidden>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.4-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.6 18 4.9 18 4.9c.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+      </a>
+      <a id="c-linkedin" target="_blank" rel="noopener" aria-label="LinkedIn" hidden>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21H9V9Z"/></svg>
+      </a>
+      <a id="c-resume" target="_blank" rel="noopener" aria-label="Résumé (PDF)" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H7a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7.5L14 2.5Z"/><path d="M14 2.5V8h5M8.5 13h7M8.5 17h7M8.5 9h2"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <section class="reveal" style="animation-delay:.08s">
+    <p class="section-label">About</p>
+    <p class="lede" id="about"></p>
+  </section>
+
+  <section class="reveal" style="animation-delay:.16s">
+    <p class="section-label">Professional Background</p>
+    <div id="experience"></div>
+  </section>
+
+  <section class="reveal" style="animation-delay:.24s">
+    <p class="section-label">Education</p>
+    <div id="education"></div>
+  </section>
+
+  <section class="reveal" style="animation-delay:.3s">
+    <p class="section-label">Publications</p>
+    <div class="contact" id="pub-links" style="margin:2px 0 22px;">
+      <a id="p-scholar" target="_blank" rel="noopener" aria-label="Google Scholar" hidden>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+      </a>
+      <a id="p-semantic" target="_blank" rel="noopener" aria-label="Semantic Scholar" hidden>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 8.609c-.848.536-1.436.83-2.146 1.245-4.152 2.509-8.15 5.295-11.247 8.981l-1.488 1.817-4.568-7.268c1.021.814 3.564 3.098 4.603 3.599l3.356-2.526c2.336-1.644 8.946-5.226 11.49-5.848ZM8.046 15.201c.346.277.692.537.969.744.761-3.668.121-7.613-1.886-11.039 3.374-.052 6.731-.087 10.105-.139a14.794 14.794 0 0 1 1.298 5.295c.294-.156.588-.294.883-.433-.104-1.868-.641-3.91-1.662-6.263-4.602-.018-9.188-.018-13.79-.018 2.993 3.547 4.36 7.839 4.083 11.853Zm-.623-.484c.087.086.191.155.277.225-.138-3.409-1.419-6.887-3.824-9.881H1.73c3.098 2.855 4.984 6.299 5.693 9.656Zm-.744-.658c.104.087.208.173.329.277-.9-2.526-2.492-5.018-4.741-7.198H0c2.89 2.076 5.122 4.481 6.679 6.921Z"/></svg>
+      </a>
+      <a id="p-orcid" target="_blank" rel="noopener" aria-label="ORCID" hidden>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
+      </a>
+    </div>
+    <details class="pub-panel" id="pub-panel">
+      <summary>
+        <span id="pub-summary">Papers</span>
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </summary>
+      <div class="pub-list" id="publications"></div>
+    </details>
+  </section>
+
+  <!--<section class="reveal" style="animation-delay:.36s">
+    <p class="section-label">Prior Work</p>
+    <div class="work-grid" id="work"></div>
+  </section>-->
+
+  <section class="reveal" style="animation-delay:.4s">
+    <p class="section-label">Hobbies</p>
+    <div class="photo-grid" id="hobbies"></div>
+  </section>
+
+  <footer class="reveal" style="animation-delay:.48s">
+    © <span id="year"></span> <span id="footer-name"></span>. 
+  </footer>
+</div>
+
+<!-- All your editable content lives in the content/ folder.
+     Each file adds its own section; order doesn't matter. -->
+<script src="content/profile.js"></script>
+<script src="content/experience.js"></script>
+<script src="content/education.js"></script>
+<script src="content/publications.js"></script>
+<script src="content/projects.js"></script>
+<script src="content/hobbies.js"></script>
+
+<script>
+  // ============================================================
+  // Fills the page from the content/ files. You normally never
+  // need to touch this file — just edit the files in content/.
+  // ============================================================
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // dark-mode toggle: flip the theme and remember the choice
+  document.getElementById('theme-toggle').addEventListener('click', function () {
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+
+  // small helper: build one timeline entry (used for jobs + schools)
+  function entryEl(item) {
+    const wrap = document.createElement('div');
+    wrap.className = 'entry';
+    wrap.innerHTML =
+      '<div class="entry-top">' +
+        '<div class="entry-title"></div>' +
+        '<div class="entry-date"></div>' +
+      '</div>' +
+      '<p class="entry-desc"></p>';
+    const title = wrap.querySelector('.entry-title');
+    title.textContent = item.title + ' ';
+    if (item.org) {
+      const org = document.createElement('span');
+      org.className = 'entry-org';
+      org.textContent = '· ' + item.org;
+      title.appendChild(org);
+    }
+    wrap.querySelector('.entry-date').textContent = item.date || '';
+    wrap.querySelector('.entry-desc').textContent = item.desc || '';
+    return wrap;
+  }
+
+  // build one project card
+  function cardEl(item) {
+    const card = document.createElement('a');
+    card.className = 'card';
+    if (item.link) { card.href = item.link; card.target = '_blank'; card.rel = 'noopener'; }
+    const h3 = document.createElement('h3'); h3.textContent = item.name;
+    const p = document.createElement('p'); p.textContent = item.desc || '';
+    card.appendChild(h3); card.appendChild(p);
+    if (item.link) {
+      const tag = document.createElement('span');
+      tag.className = 'tag'; tag.textContent = 'View →';
+      card.appendChild(tag);
+    }
+    return card;
+  }
+
+  // build one publication row
+  function pubEl(item) {
+    const row = document.createElement('div');
+    row.className = 'pub';
+    const title = document.createElement('div');
+    title.className = 'pub-title';
+    if (item.link) {
+      const a = document.createElement('a');
+      a.href = item.link; a.target = '_blank'; a.rel = 'noopener';
+      a.textContent = item.title;
+      title.appendChild(a);
+    } else {
+      title.textContent = item.title;
+    }
+    row.appendChild(title);
+    if (item.authors) {
+      const au = document.createElement('div');
+      au.className = 'pub-meta'; au.textContent = item.authors;
+      row.appendChild(au);
+    }
+    if (item.venue || item.year) {
+      const vm = document.createElement('div');
+      vm.className = 'pub-meta';
+      const v = document.createElement('span');
+      v.className = 'venue'; v.textContent = item.venue || '';
+      vm.appendChild(v);
+      vm.appendChild(document.createTextNode((item.venue && item.year ? ' · ' : '') + (item.year || '')));
+      row.appendChild(vm);
+    }
+    return row;
+  }
+
+  // build one hobby photo tile
+  function photoEl(item) {
+    const fig = document.createElement('figure');
+    fig.className = 'photo';
+    const img = document.createElement('img');
+    img.src = item.photo;
+    img.alt = item.caption || '';
+    img.loading = 'lazy';
+    fig.appendChild(img);
+    if (item.caption) {
+      const cap = document.createElement('figcaption');
+      cap.textContent = item.caption;
+      fig.appendChild(cap);
+    }
+    return fig;
+  }
+
+  // sets a contact icon's link, or hides it if blank
+  function setContact(id, href) {
+    const el = document.getElementById(id);
+    if (href) { el.href = href; el.hidden = false; }
+  }
+
+  function render(data) {
+    // header
+    document.title = (data.name + ' ' + (data.nameAccent || '')).trim() + ' — Portfolio';
+    const nameEl = document.getElementById('name');
+    nameEl.textContent = data.name + ' ';
+    if (data.nameAccent) {
+      const span = document.createElement('span');
+      span.className = 'accent';
+      span.textContent = data.nameAccent;
+      nameEl.appendChild(span);
+    }
+    document.getElementById('tagline').textContent = data.tagline || '';
+    document.getElementById('footer-name').textContent = (data.name + ' ' + (data.nameAccent || '')).trim();
+
+    // name in your own language (smaller, under the main name)
+    const nativeEl = document.getElementById('name-native');
+    if (data.nameNative) {
+      nativeEl.textContent = data.nameNative;
+    } else {
+      nativeEl.style.display = 'none';
+    }
+
+    // speaker button: plays the audio file of your name, if one is set
+    const pron = document.getElementById('pronounce');
+    if (data.namePronunciation) {
+      const audio = new Audio(data.namePronunciation);
+      pron.hidden = false;
+      pron.addEventListener('click', function () {
+        audio.currentTime = 0;
+        pron.classList.add('playing');
+        audio.play().catch(function () {});
+      });
+      audio.addEventListener('ended', function () { pron.classList.remove('playing'); });
+    }
+
+    // contacts
+    const c = data.contacts || {};
+    setContact('c-email', c.email ? 'mailto:' + c.email : '');
+    setContact('c-github', c.github);
+    setContact('c-linkedin', c.linkedin);
+    setContact('c-resume', c.resume);
+
+    // about
+    document.getElementById('about').textContent = data.about || '';
+
+    // experience + education
+    (data.experience || []).forEach(function (it) { document.getElementById('experience').appendChild(entryEl(it)); });
+    (data.education || []).forEach(function (it) { document.getElementById('education').appendChild(entryEl(it)); });
+
+    // publications: scholar profile icons + collapsible paper list
+    const sl = data.scholarLinks || {};
+    setContact('p-scholar', sl.googleScholar);
+    setContact('p-semantic', sl.semanticScholar);
+    setContact('p-orcid', sl.orcid);
+    const papers = data.publications || [];
+    const hasLinks = sl.googleScholar || sl.semanticScholar || sl.orcid;
+    if (papers.length) {
+      document.getElementById('pub-summary').textContent = 'Papers (' + papers.length + ')';
+      papers.forEach(function (p) { document.getElementById('publications').appendChild(pubEl(p)); });
+    } else {
+      document.getElementById('pub-panel').style.display = 'none';   // no papers: drop the panel
+    }
+    if (!papers.length && !hasLinks) {
+      document.getElementById('pub-panel').closest('section').style.display = 'none';
+    }
+
+    // projects (Prior Work)
+    (data.projects || []).forEach(function (it) { document.getElementById('work').appendChild(cardEl(it)); });
+
+    // hobbies — hide the whole section if there are none
+    const hobbies = data.hobbies || [];
+    if (hobbies.length) {
+      hobbies.forEach(function (it) { document.getElementById('hobbies').appendChild(photoEl(it)); });
+    } else {
+      document.getElementById('hobbies').closest('section').style.display = 'none';
+    }
+  }
+
+  // the content/ files set window.SITE_CONTENT
+  if (window.SITE_CONTENT) {
+    render(window.SITE_CONTENT);
+  } else {
+    document.querySelector('.wrap').innerHTML =
+      '<div class="loaderror">Could not load the <b>content/</b> files. ' +
+      'Make sure the content folder sits in the same place as index.html.</div>';
+  }
+</script>
+</body>
 </html>
