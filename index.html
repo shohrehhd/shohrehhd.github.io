@@ -9,7 +9,7 @@
 <!-- Fonts (loaded from Google, no setup needed) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
   /* ============================================================
@@ -42,7 +42,7 @@
   body {
     background: var(--paper);
     color: var(--ink);
-    font-family: 'Hanken Grotesk', system-ui, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     font-size: 17px;
     line-height: 1.65;
     background-image: radial-gradient(transparent 1px, rgba(180,170,150,0.05) 1px);
@@ -63,7 +63,7 @@
   /* name block at the top-left, in normal flow (stacks cleanly on mobile) */
   .nameplate { padding-top: 56px; text-align: left; }
   .name {
-    font-family: 'Fraunces', serif;
+    font-family: 'Playfair Display', Georgia, serif;
     font-weight: 700;
     font-size: clamp(26px, 6vw, 36px);
     line-height: 1.05;
@@ -74,7 +74,7 @@
   /* name in your own language, under the name */
   .name-row { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 6px; flex-wrap: wrap; }
   .name-native {
-    font-family: 'Fraunces', serif;
+    font-family: 'Playfair Display', Georgia, serif;
     font-weight: 500;
     font-size: 15px;
     color: var(--muted);
@@ -122,20 +122,26 @@
   .contact a svg { width: 21px; height: 21px; }
   .contact a[hidden] { display: none; }
 
-  /* ===========================  SECTIONS  =========================== */
-  section { padding: 46px 0; border-top: 1px solid var(--line); }
-  .section-label {
-    font-family: 'Hanken Grotesk', sans-serif;
-    font-weight: 600; font-size: 13px; letter-spacing: 0.18em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 26px;
+  /* ===========================  SECTIONS (tiles)  =========================== */
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 28px;
+    margin-bottom: 18px;
   }
-  .lede { font-size: 20px; line-height: 1.6; }
+  .section-label {
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 600; font-size: 13px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 20px;
+  }
+  .lede { font-size: 19px; line-height: 1.65; }
 
   /* ---- timeline entry (jobs + schools share this) ---- */
   .entry { margin-bottom: 34px; }
   .entry:last-child { margin-bottom: 0; }
   .entry-top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
-  .entry-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 22px; line-height: 1.2; }
+  .entry-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 600; font-size: 22px; line-height: 1.2; }
   .entry-org { color: var(--accent); font-weight: 600; }
   .entry-date { font-size: 14px; color: var(--muted); white-space: nowrap; }
   .entry-desc { margin-top: 8px; color: var(--muted); }
@@ -143,21 +149,21 @@
   /* ---- work cards ---- */
   .work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
   .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    background: var(--paper); border: 1px solid var(--line); border-radius: 14px;
     padding: 24px; transition: transform .2s ease, box-shadow .2s ease;
     text-decoration: none; color: inherit; display: block;
   }
   .card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(50,40,20,.4); }
-  .card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 20px; margin-bottom: 6px; }
+  .card h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 600; font-size: 20px; margin-bottom: 6px; }
   .card p { color: var(--muted); font-size: 15px; }
   .card .tag { display: inline-block; margin-top: 14px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
 
   /* ---- publications: collapsible panel + paper list ---- */
-  .pub-panel { border: 1px solid var(--line); border-radius: 14px; background: var(--card); overflow: hidden; }
+  .pub-panel { border: 1px solid var(--line); border-radius: 14px; background: var(--paper); overflow: hidden; }
   .pub-panel > summary {
     list-style: none; cursor: pointer; padding: 16px 20px;
     display: flex; align-items: center; justify-content: space-between;
-    font-family: 'Fraunces', serif; font-weight: 600; font-size: 18px;
+    font-family: 'Playfair Display', Georgia, serif; font-weight: 600; font-size: 18px;
   }
   .pub-panel > summary::-webkit-details-marker { display: none; }
   .pub-panel > summary .chev { width: 20px; height: 20px; transition: transform .25s ease; color: var(--accent); }
@@ -190,13 +196,13 @@
     background: linear-gradient(transparent, rgba(20,16,10,.72));
   }
 
-  footer { padding: 50px 0 80px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer { padding: 24px 4px 70px; color: var(--muted); font-size: 14px; }
 
   /* tighten everything so it packs into a small screen */
   @media (max-width: 560px) {
     body { font-size: 16px; }
-    .wrap { padding: 0 20px; }
-    section { padding: 30px 0; }
+    .wrap { padding: 0 16px; }
+    section { padding: 20px; margin-bottom: 14px; }
     .nameplate { padding-top: 48px; }
     .entry-top { gap: 4px; }
     .work-grid { grid-template-columns: 1fr; }
@@ -296,10 +302,10 @@
     </details>
   </section>
 
-  <!--<section class="reveal" style="animation-delay:.36s">
+  <section class="reveal" style="animation-delay:.36s">
     <p class="section-label">Prior Work</p>
     <div class="work-grid" id="work"></div>
-  </section>-->
+  </section>
 
   <section class="reveal" style="animation-delay:.4s">
     <p class="section-label">Hobbies</p>
@@ -307,7 +313,7 @@
   </section>
 
   <footer class="reveal" style="animation-delay:.48s">
-    © <span id="year"></span> <span id="footer-name"></span>. 
+    © <span id="year"></span> <span id="footer-name"></span>. Built with plain HTML, hosted on GitHub Pages.
   </footer>
 </div>
 
@@ -501,7 +507,7 @@
     const hobbies = data.hobbies || [];
     if (hobbies.length) {
       hobbies.forEach(function (it) { document.getElementById('hobbies').appendChild(photoEl(it)); });
-    } else {
+    } else {  
       document.getElementById('hobbies').closest('section').style.display = 'none';
     }
   }

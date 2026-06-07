@@ -22,4 +22,4 @@ window.SITE_CONTENT.contacts = {
 };
 
 window.SITE_CONTENT.about =
-  "I'm an Applied Research Scientist in healthcare, where I develop NLP and ML solutions optimized for efficiency and reliability. I bring a strong programming background, with over five years of software development experience at AI application companies, and I enjoy collaborative work. Broadly, I like applying NLP and ML to applications with high impact. My current research interests include the evaluation of NLP/ML healthcare applications — such as summarization optimized for clinical use — evidence-grounded summarization, and temporal event-pair information extraction. ";
+  "My interest lies in NLP and ML to applications with high impact such as education and healthcare. My current research interests include the evaluation of NLP/ML healthcare applications — such as summarization optimized for clinical use — evidence-grounded summarization, and temporal event-pair information extraction. ";

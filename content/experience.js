@@ -7,7 +7,7 @@ window.SITE_CONTENT.experience = [
   {
     title: "Applied Research Scientist",
     dep: "Machine Learning",
-    org:   "Moffitt Cancer Center and Research Institute",
+    org:   "Moffitt Cancer Center",
     date:  "Dec 2023 — Present",
     desc:  ""
   },

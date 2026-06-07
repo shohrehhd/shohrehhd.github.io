@@ -3,7 +3,7 @@
 window.SITE_CONTENT = window.SITE_CONTENT || {};
 
 window.SITE_CONTENT.projects = [
-  {
+/*  {
     name: "Project Name",
     desc: "A one-line description of what it does and why it's interesting.",
     link: "https://github.com/yourusername/project"
@@ -17,5 +17,5 @@ window.SITE_CONTENT.projects = [
     name: "Third Thing",
     desc: "Could be open source, a paper, a talk, or a side project.",
     link: ""
-  }
+  }*/
 ];
