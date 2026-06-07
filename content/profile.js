@@ -11,7 +11,7 @@ window.SITE_CONTENT.namePronunciation = "audio/name.mp3";
 window.SITE_CONTENT.nameNative = "شهره حدادان";
 
 window.SITE_CONTENT.tagline =
-  "Researcher and developer in NLP and machine learning, focused on solutions that optimize for efficiency and reliability.";
+  "NLP/ML Researcher,developer and enthusiast";
 
 // Leave a value as "" to hide that contact icon.
 window.SITE_CONTENT.contacts = {
