@@ -3,11 +3,11 @@
 window.SITE_CONTENT = window.SITE_CONTENT || {};
 
 window.SITE_CONTENT.projects = [
-/*  {
-    name: "Project Name",
-    desc: "A one-line description of what it does and why it's interesting.",
-    link: "https://github.com/yourusername/project"
-  },
+  {
+    name: "LaiLab@Chemotimeline2024",
+    desc: "Chemotherapy timeline extraction",
+    link: "https://github.com/LangIntLab/Chemotimeline#"
+  }/*,
   {
     name: "Another Project",
     desc: "Built with X to solve Y. Mention the result or the tech.",
