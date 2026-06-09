@@ -17,5 +17,5 @@ window.SITE_CONTENT.projects = [
     name: "Third Thing",
     desc: "Could be open source, a paper, a talk, or a side project.",
     link: ""
-  }*/*/
+  }*/
 ];
