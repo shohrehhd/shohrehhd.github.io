@@ -22,4 +22,4 @@ window.SITE_CONTENT.contacts = {
 };
 
 window.SITE_CONTENT.about =
-  "My interest lies in NLP and ML to applications with high impact such as education and healthcare. My current research interests include the evaluation of NLP/ML healthcare applications — such as summarization optimized for clinical use — evidence-grounded summarization, and temporal event-pair information extraction. ";
+  "I'm insterested in applying NLP and ML methods to high impact domains such as education and healthcare. My current research interests include the evaluation of NLP/ML healthcare applications — such as summarization optimized for clinical use — evidence-grounded summarization, and temporal event-pair information extraction. ";
